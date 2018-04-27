@@ -1,0 +1,129 @@
+.partnerTypeBlock{
+    float: left;
+    padding: 5px;
+    height: 100%
+}
+
+.partnerInput{
+    margin-bottom: 20px;
+}
+
+.partnerInput label{
+    height: 100%;
+    background: #ddd;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+}
+
+.partnerTypeBlock i{
+    font-size: 100px;
+}
+
+.partnerTypeDescription{
+        text-align: justify;
+    hyphens: auto;
+}
+
+
+input[name="partnerType"]:checked+label[for*="generalPartner"]{
+    background: #8bc34a
+}
+
+input[name="partnerType"]:checked+label[for*="sectorPartner"]{
+    background: #ff9800
+}
+
+input[name="partnerType"]:checked+label .partnerTypeChecked{
+    display: block;
+}
+
+.partnerTypeChecked{
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 25px;
+    font-size: 25px;
+    color: grey;
+}
+
+@media screen and (max-width: 767px) {
+.partnerTypeSelector{
+flex-wrap: wrap;
+}
+}
+
+.myCheckbox{
+    padding: 0 5px;
+    border: 1pt solid #aaa;
+    border-radius: 5px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.myCheckbox input{
+    position: relative;
+    top:2px;
+    margin-right: 2px;
+}
+
+.myCheckbox.disabled{
+    background: #ffc3c3;
+}
+
+.myCheckbox label{
+    margin-bottom: 0!important;
+    padding: 3px 5px;
+}
+
+.panchayatsWardContainer{
+    /*flex-wrap: wrap;
+    justify-content: center;*/
+    border: 1pt solid grey;
+
+}
+
+.panchayatWardChecked{
+    background: #8bc34a;
+    color: white;
+}
+
+.panel-footer .form-group{
+    height: 47px;
+    margin-bottom: 0!important;
+}
+
+.partnerDetails{
+    font-size: 16px;
+}
+
+.partnerDetails p{
+display: inline-block;
+margin: 0;
+}
+
+.partnerDetails span{
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.Select-value.Rural{
+    color:rgb(161, 74, 195)!important;
+    border :1pt solid rgba(161, 74, 195, 0.24)!important;
+    background-color:rgba(161, 74, 195, 0.08)!important;
+}
+
+.Select-value-icon:hover{
+        background-color: rgba(255, 0, 0, 0.08)!important;    
+}
+
+.Select-menu-option.Rural{
+    color:rgb(161, 74, 195)!important;
+}
+
+.Select-menu-option.Urban{
+color : rgb(0, 126, 255);
+}
+
+.panel-footer{
+    background-color: #d1eaff;
+}

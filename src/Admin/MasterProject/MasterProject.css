@@ -1,0 +1,21 @@
+.phases-table td{
+  border-top:none!important; 
+}
+.phases-table tr:nth-child(odd){
+  border-top: 1pt solid #ddd!important;
+}
+.btn-small{
+  padding: 2px 6px !important
+}
+.phases-table,.scopes-table{
+  margin-bottom: 0!important;
+}
+.phases-table input[type="checkbox"],.scopes-table input[type="checkbox"]{
+  margin: 10px 0;
+}
+.master-project .form-group{
+  height: 54px;
+}
+.master-project .help-block{
+  margin-bottom:0;
+}

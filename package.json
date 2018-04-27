@@ -1,0 +1,45 @@
+{
+  "name": "smartap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "adminlte-reactjs": "^1.0.6",
+    "bootstrap": "^3.3.7",
+    "draft-js": "^0.10.4",
+    "draftjs-to-html": "^0.8.3",
+    "express": "^4.16.3",
+    "html-to-pdf": "^0.1.11",
+    "intl-tel-input": "^12.1.13",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "js-file-download": "^0.4.1",
+    "moment": "^2.22.1",
+    "react": "^16.3.2",
+    "react-bootstrap-table": "^4.3.1",
+    "react-data-grid": "^2.0.46",
+    "react-data-grid-addons": "^4.0.7",
+    "react-dom": "^16.3.2",
+    "react-draft-wysiwyg": "^1.12.4",
+    "react-froala-wysiwyg": "^2.8.1",
+    "react-google-invisible-recaptcha": "^0.1.1",
+    "react-image-gallery": "^0.8.7",
+    "react-phone-number-input": "^1.0.11",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-rte": "^0.16.1",
+    "react-scripts": "1.1.4",
+    "react-select": "^1.2.1",
+    "react-toastify": "^3.4.3",
+    "validate.js": "^0.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.2",
+    "babel-loader": "^7.1.4"
+  }
+}

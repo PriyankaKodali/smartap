@@ -1,0 +1,21 @@
+/*Quick Registration*/
+.registration-form,.login-form{
+    border: 1pt solid #cecece;
+    border-radius:10px; 
+}
+
+.regForm .form-group,.loginForm .form-group{
+  height: 58px;
+}
+
+.Select.countryCode{
+  width: 25%!important;
+}
+
+.Select.countryCode .Select-menu-outer{
+  min-width: 250px;
+}
+
+#phone-number{
+  width: 75%!important;
+}

@@ -1,0 +1,27 @@
+.donation-container table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.donation-container th{
+    background-color: #F0F0F0
+}
+
+.donation-container tr th,.donation-container tr td{
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.red{
+    background-color: #f1655b;
+}
+
+.green{
+    background-color: #8bc34a;
+}
+
+.orange{
+    background-color: #ff8660;
+}

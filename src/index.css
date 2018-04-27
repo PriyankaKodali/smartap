@@ -1,0 +1,539 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700');
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: 'trebuchet ms','Open Sans', sans-serif!important;
+}
+
+.react-datepicker {
+  font-size: 1.3rem !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.5rem !important;
+}
+
+.react-datepicker__header {
+  padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+  top: 13px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 0.5rem !important;
+}
+
+.toastify{
+  z-index: 100000!important;
+}
+
+/* diable native datepicker */
+input::-webkit-calendar-picker-indicator{
+  display: none;
+}
+
+.date::-webkit-input-placeholder{ 
+  /* visibility: hidden !important; */
+}
+
+.navbar{
+  background-color: #444444!important;
+  border-color: #444444!important;
+  margin-bottom: 0!important;
+  border-radius: 0!important;
+  font-family: 'poppins','Open Sans', sans-serif!important;
+}
+
+.navbar-nav{
+  padding: 9px 0;
+}
+
+@media(max-width:600px){
+  .logo-container{
+      width: 77px;
+      overflow: hidden;
+  }
+}
+
+.navbar-menu-item{
+  background-color: transparent !important;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent !important;
+  /* font-size: 16px; */
+  line-height: 16px;
+  /* font-family: Poppins; */
+}
+
+.navbar-menu-item:hover,.navbar-menu-item:focus{
+  color: #f3f3f3 !important;
+  border-bottom: 2px solid #fffffd  !important;
+}
+
+.navbar-menu-item.active{    
+  color: #f3f3f3 !important;
+  border-bottom: 2px solid #fffffd  !important;
+}
+
+.dropdown-menu{
+  padding: 0!important;
+  margin-top: 0px;
+  clear: both;
+}
+
+.navbar .dropdown li a{
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  border-top:  1pt solid  #f0f0f0;
+}
+
+.navbar .dropdown li:nth-child(1) a{
+  border-top:  1pt solid  transparent;
+}
+
+.is-open {
+	z-index: 100 !important;
+}
+
+.logo-text{
+  display: inline-block;
+  position: absolute;
+  bottom: 13px;
+  color: white;
+  margin-left:10px;
+  font-size: 12px; 
+  left: 70px;
+}
+
+.logo-text-main{
+  font-size: 18px;
+  font-weight: bold;
+}
+/* 
+ .navbar-collapse{
+   background-color: #fff;
+ } */
+
+ .form-group{
+   margin-bottom: 5px!important;
+ }
+
+a{
+  text-decoration: none;
+  color: inherit;  
+}
+
+
+.myLink{
+  color: #03a9f4;
+}
+
+.help-block{
+  color : #a94442;
+  text-align: left;
+  margin-left: 20px
+  /*position: absolute;
+  top:30px;
+  left:40px;*/
+}
+
+
+/*margins*/
+.m0{
+  margin: 0!important;
+}
+
+.mtop0{
+  margin-top:  0!important;
+}
+
+.mbot5{
+  margin-bottom:5px!important;
+}
+
+.m10{
+  margin: 10px !important;
+}
+
+
+.mtop10{
+  margin-top:10px!important;
+}
+
+.mtop24{
+  margin-top: 24px!important;
+}
+
+.mtop30{
+  margin-top: 30px!important;
+}
+
+
+.mbot10{
+  margin-bottom: 10px!important;
+}
+
+.mbot20{
+  margin-bottom: 20px!important;
+}
+
+
+.mleft5{
+  margin-left: 5px!important;
+}
+
+.mleft10{
+  margin-left: 10px!important;
+}
+
+
+/*paddings*/
+.p0{
+  padding: 0 !important;
+}
+
+.p4{
+  padding: 4px !important;
+}
+
+.img-responsive {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+
+/*display*/
+.flex{
+  display: flex;
+}
+
+.has-error .form-control{
+  border-radius:0!important;
+}
+
+.has-error .form-control{
+    border-color: #a94442!important;
+    }
+
+.form-group{
+  height: 58px;
+}
+
+.center-block{
+  float: none!important;
+}
+
+/*select*/
+.Select{
+  padding: 0!important;
+  text-align: left;
+}
+
+
+
+.Select *{
+  box-shadow: none!important;
+}
+
+.Select-control{
+  border : none !important;
+  height: 32px!important;
+}
+
+.Select-input{
+  height: 32px!important;
+}
+
+
+/*Bootstrap switch*/
+
+ /* The switch - the box around the slider */
+.switch-container{
+  padding: 20px 0;
+}
+
+.switch-label{
+  position: relative;
+  bottom: 5px;
+  color: #a9a9a9;
+}
+
+.switch-label.checked{
+   color : #2196F3;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin : 0 9px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2196F3;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+/*Loader*/
+
+.loader {
+    display: none;
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
+.loader.visible{
+  display: block!important;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+/*Rich Text Editor*/
+.form-group .public-DraftEditor-content{
+  min-height: 110px;
+}
+
+td .readOnly .public-DraftEditor-content{
+  margin: 0!important;
+  padding: 0!important;
+}
+
+td .readOnly.RichTextEditor__root___2QXK-{
+  border: none;
+  background-color: unset;
+  font-family: inherit!important;
+}
+
+.readOnly.no-border{
+  border: none!important;
+}
+
+.table-view th{
+    background-color: #F0F0F0
+}
+
+
+/*react-image-gallery*/
+.image-gallery-thumbnail img {
+  width: auto;
+  height: 75px;
+}
+.image-gallery-slides{
+  text-align: center;
+}
+.image-gallery-image img {
+ height: 400px;
+ width: auto!important;
+}
+.fullscreen .image-gallery-image img {
+ height:100%;
+ width: 100%!important;
+}
+
+.image-gallery-slide .image-gallery-description{
+  width: 100%;
+}
+
+
+
+/*-----------------------colors---------------------*/
+.bg-white{
+    background-color: #fff  !important;
+}
+
+.bg-grey{
+  background-color: rgba(204, 204, 204, 0.36)!important;
+}
+
+.bg-g1 {
+    background-color: #3fb26c !important;
+}
+
+.bg-a1 {
+    background-color: #9aa07a !important;
+}
+
+.bg-o1 {
+    background-color: #f17318 !important;
+}
+
+.bg-t1 {
+    background-color:#149eac !important;
+}
+
+.bg-b1{
+  background-color: #03a9f4 !important;
+}
+
+.bg-bg1{
+  background-color: #607D8B!important;
+}
+
+.bg-r1{
+  background-color: rgb(255, 52, 52)!important;
+}
+
+
+
+
+.cl-g1 {
+    color: #3fb26c !important;
+}
+
+.cl-a1 {
+    color: #9aa07a !important;
+}
+
+.cl-o1 {
+    color: #f17318 !important;
+}
+
+.cl-white{
+  color: #fff !important;
+}
+
+.cl-r1{
+  color: rgb(255, 52, 52)!important;
+}
+
+.radio-inline{  
+    padding: 5px 4px 5px 20px;
+}
+
+.form-group-textarea{
+    height: auto!important;
+}
+
+textarea{
+  resize: vertical;
+}
+
+.Rural,.rural{
+    color:rgb(161, 74, 195)!important;
+}
+
+.Urban,.urban{
+color : rgb(0, 126, 255);
+}
+
+.phases-table .btn,.scopes-table .btn{
+  padding: 1px 3px;
+  line-height: 1;
+}
+
+/* table */
+table 
+{
+    table-layout:fixed;
+    width:100%;
+}
+  td{
+    white-space: nowrap!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  td:hover{
+    white-space: initial!important;
+  }
+
+  .td-visible{
+    white-space: normal!important;
+    overflow: visible;
+    white-space: initial!important;
+  }
+
+  .view-table th{
+    background-color: #F0F0F0!important;
+  }
+
+  /* font sizes */
+  .f18{
+    font-size: 18px;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .panel-heading a{
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+  }
+
+  /* Draft Editor */
+  .draft-editor-wrapper{    
+    border: 1px solid #ccc;
+  }
+
+  .draft-editor-inner{
+    padding:0 10px;
+  }
